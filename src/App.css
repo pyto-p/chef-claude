@@ -31,3 +31,34 @@ header {
     font-weight: 400;
     line-height: 3.5rem;
 }
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2.5rem;
+}
+
+.input-bar {
+    width: 30rem;
+    padding: 1rem;
+    border: 1px solid #D1D5DB;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.input-bar::placeholder {
+    color: #6B7280;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.input-btn {
+    width: 12rem;
+    font-size: 1rem;
+    border-style: none;
+    background-color: #141413;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
